@@ -1,1 +1,1 @@
-github "ReactiveKit/ReactiveKit" ~> 2.0
+github "https://github.com/turekj/ReactiveKit" "swift-23"

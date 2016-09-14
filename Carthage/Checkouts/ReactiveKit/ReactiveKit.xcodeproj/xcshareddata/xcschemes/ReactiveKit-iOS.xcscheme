@@ -3,8 +3,8 @@
    LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "NO"
-      buildImplicitDependencies = "NO">
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,38 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16C33AF81BEFB72500A0DBE0"
+               BlueprintIdentifier = "ECBCCDCF1BEB6B9A00723476"
                BuildableName = "ReactiveKit.framework"
-               BlueprintName = "ReactiveKit-tvOS"
-               ReferencedContainer = "container:ReactiveKit/ReactiveKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC95497B1BF1EE70000FC2BF"
-               BuildableName = "ReactiveFoundation.framework"
-               BlueprintName = "ReactiveFoundation-tvOS"
-               ReferencedContainer = "container:ReactiveFoundation/ReactiveFoundation.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC9549471BF1EA7A000FC2BF"
-               BuildableName = "ReactiveUIKit.framework"
-               BlueprintName = "ReactiveUIKit-tvOS"
-               ReferencedContainer = "container:ReactiveUIKit.xcodeproj">
+               BlueprintName = "ReactiveKit-iOS"
+               ReferencedContainer = "container:ReactiveKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -54,16 +26,27 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ECBCCDD91BEB6B9B00723476"
+               BuildableName = "ReactiveKit-iOSTests.xctest"
+               BlueprintName = "ReactiveKit-iOSTests"
+               ReferencedContainer = "container:ReactiveKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC9549471BF1EA7A000FC2BF"
-            BuildableName = "ReactiveUIKit.framework"
-            BlueprintName = "ReactiveUIKit-tvOS"
-            ReferencedContainer = "container:ReactiveUIKit.xcodeproj">
+            BlueprintIdentifier = "ECBCCDCF1BEB6B9A00723476"
+            BuildableName = "ReactiveKit.framework"
+            BlueprintName = "ReactiveKit-iOS"
+            ReferencedContainer = "container:ReactiveKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC9549471BF1EA7A000FC2BF"
-            BuildableName = "ReactiveUIKit.framework"
-            BlueprintName = "ReactiveUIKit-tvOS"
-            ReferencedContainer = "container:ReactiveUIKit.xcodeproj">
+            BlueprintIdentifier = "ECBCCDCF1BEB6B9A00723476"
+            BuildableName = "ReactiveKit.framework"
+            BlueprintName = "ReactiveKit-iOS"
+            ReferencedContainer = "container:ReactiveKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -100,10 +83,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC9549471BF1EA7A000FC2BF"
-            BuildableName = "ReactiveUIKit.framework"
-            BlueprintName = "ReactiveUIKit-tvOS"
-            ReferencedContainer = "container:ReactiveUIKit.xcodeproj">
+            BlueprintIdentifier = "ECBCCDCF1BEB6B9A00723476"
+            BuildableName = "ReactiveKit.framework"
+            BlueprintName = "ReactiveKit-iOS"
+            ReferencedContainer = "container:ReactiveKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
