@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source_files      = 'Sources/*.swift', 'ReactiveUIKit/*.h'
   s.requires_arc      = true
 
-  s.dependency 'ReactiveKit', '~> 2.0'
+  s.dependency 'ReactiveKit', :git => 'https://github.com/turekj/ReactiveKit.git'
 end
